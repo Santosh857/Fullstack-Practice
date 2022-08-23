@@ -1,43 +1,61 @@
+<!DOCTYPE html>
 <html>
+<head>
+<style>
+table, th, td {
+  border:1px solid black;
+  background-color:lightgray;
+  }
 
-<head></head>
-
+</style>
+</head>
 <body>
-    <h1>Registration Page</h1>
+
     <form>
-        <label>Name:</label>
-        <input type="text" /> <br /><br />
-        <label>Email:</label>
-        <input type="email" /> <br /><br />
-        <label>Mobile:</label>
-        <input type="number" /> <br /><br />
-        <label>DOB:</label>
-        <input type="date" /> <br /><br />
-
-        <label>Gender</label>
-        <input type="radio" /> Male
-        <input type="radio" /> Female <br />
-        <label>Address</label>
-        <textarea cols="30" rows="5"></textarea> <br />
-        <label>Location</label>
-        <input type="checkbox" />Chennai
-        <input type="checkbox" />Bangalore
-        <input type="checkbox" />Trivendra
-        <input type="checkbox" />Kochi
-        <br /><br />
-        <label>State</label>
-        <select>
-            <option>Pls select State</option>
-            <option>MP</option>
-            <option>UP</option>
-            <option>TN</option>
-            <option>TS</option>
-            <option>KA</option>
-            <option>KL</option>
-        </select><br /><br />
-        <button>Registration</button> <br /><br />
-        <button>Cancel</button>
+        <label>Name:&nbsp;</label>
+        <input type="text" /> 
+        <label>Role: &nbsp;</label>
+        <input type="text"/> 
+        <label>Age:&nbsp;</label>
+        <input type="number" /> 
+        <button>Submit</button> <br /><br />
     </form>
-</body>
 
+<table style="width:75%">
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+    <th>Age</th>
+    <th>Edit</th>
+    <th>Delete</th>
+
+  </tr>
+  <tr>
+    <td align="center">Virat</td>
+    <td align="center">Batsman</td>
+    <td align="center">32</td>
+    <td align="center">...</td>
+    <td align="center">...</td>
+  </tr>
+  <tr>
+    <td align="center">Hardik</td>
+    <td align="center">Allrounder</td>
+    <td align="center">30</td>
+    <td align="center">...</td>
+    <td align="center">...</td>
+  </tr>
+  <tr>
+    <td align="center">Shami</td>
+    <td align="center">Bowler</td>
+    <td align="center">34</td>
+    <td align="center">...</td>
+    <td align="center">...</td>
+  </tr>
+</table> </br>
+<button>Batting</button>
+<button>Bowling</button>
+<button>Allrounder</button>
+<button>All</button> 
+</body>
 </html>
+
